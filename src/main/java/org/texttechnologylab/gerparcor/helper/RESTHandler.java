@@ -25,9 +25,10 @@ public class RESTHandler {
 
 
     /**
-     * default URI
+     * default URI - Anonymized
+     *
      */
-    private String sApiURL = "http://localhost:8081/rest";
+    private String sApiURL = "http://myuri/rest";
 
     private Map<String, Object> pFilter = new HashMap<>(0);
 
