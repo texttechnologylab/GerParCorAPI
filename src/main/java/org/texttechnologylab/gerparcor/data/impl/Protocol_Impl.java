@@ -32,8 +32,8 @@ public class Protocol_Impl implements Protocol {
 
     @Override
     public Date getDate() {
-        Date rDate = null;
-        rDate = new Date(getValueLong("timestamp"));
+        Date rDate = new Date(-1l);
+            rDate = new Date(getValueLong("timestamp"));
         return rDate;
     }
 
@@ -55,6 +55,11 @@ public class Protocol_Impl implements Protocol {
     @Override
     public boolean isHistorical() {
         return getValueBoolean("country");
+    }
+
+    @Override
+    public String getSavePath() {
+        return getValue("savePath");
     }
 
     @Override
