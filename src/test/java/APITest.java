@@ -36,7 +36,6 @@ public class APITest {
         qBuilder.withParliament("Bremen");
         for (Protocol protocol : pAPI.getFactory().getProtocol(qBuilder)) {
             File pFile = pAPI.getFactory().download(protocol);
-            System.out.println(pFile.getAbsoluteFile());
         }
 
     }
