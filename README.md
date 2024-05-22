@@ -11,3 +11,26 @@ In 2022, the largest German-speaking corpus of parliamentary protocols from thre
 
 # GerParCorAPI
 Using Java, this API allows to retrieve data from GerParCor, the largest German-language corpus of parliamentary records since 1797, from four different countries as well as on a national and regional level.
+
+
+# Cite
+If you want to use the project or the corpus, please quote this as follows:
+
+G. Abrami, M. Bagci and A. Mehler, “German Parliamentary Corpus (GerParCor) Reloaded,” in Proceedings of the 2024 Joint International Conference on Computational Linguistics, (LREC-COLING 2024), Torino, Italy, 2024, pp. 7707-7716. ![[Link]](https://aclanthology.org/2024.lrec-main.681) ![[PDF]](https://aclanthology.org/2024.lrec-main.681.pdf)
+
+# BibTeX
+```
+@inproceedings{Abrami:et:al:2024,
+    address   = {Torino, Italy},
+    author    = {Abrami, Giuseppe and Bagci, Mevl{\"u}t and Mehler, Alexander},
+    booktitle = {Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)},
+    editor    = {Calzolari, Nicoletta and Kan, Min-Yen and Hoste, Veronique and Lenci, Alessandro and Sakti, Sakriani and Xue, Nianwen},
+    month     = {may},
+    pages     = {7707--7716},
+    publisher = {ELRA and ICCL},
+    title     = {{G}erman Parliamentary Corpus ({G}er{P}ar{C}or) Reloaded},
+    url       = {https://aclanthology.org/2024.lrec-main.681},
+    year      = {2024}
+}
+
+```
